@@ -101,8 +101,16 @@ int Cpu::add_process_cpu(int identity, int memory, int time) {
     dir_it it2 = es.lower_bound(memory);
     if (it2 == es.end()) return 103;
 
+    set<int>::const_iterator af; //funcionalidad nueva
+    if (it2->second.size() > 1) {
+        af = it2->second.end();
+        --af;
+    }
+    else af = it2->second.begin();
+
+
     max -= memory;
-    int direction = *(it2->second.begin());
+    int direction = *af;
     int mem_ava = it2->first;
     it2->second.erase(it2->second.begin());
 
@@ -277,4 +285,8 @@ bool Cpu::yn_leaf() const {
 
 int Cpu::what_mema() const {
     return mema;
+}
+
+int Cpu::how_many() const {
+    return prl.size();
 }

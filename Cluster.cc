@@ -22,6 +22,16 @@ typedef const BinTree<string>& ord_ct;
 
 typedef clus::iterator& cit;
 
+int Cluster::podar_cluster(const string& id, int& num_cpu, int& num_pro) {
+    clus_it it = conj.find(id);
+    if (it == conj.end()) return 101;
+    if (id == cluster.value()) return 102;
+    
+    
+    
+    return 100;
+}
+
 void Cluster::find_best(const int mem, const int identity, cit ite, ord_ct can) {
     int no_space, free_space;
     no_space = free_space = -1;
@@ -88,6 +98,36 @@ void Cluster::reread(ord a, string p) {
             a = BinTree<string>(x, left, right);
         }
     }
+}
+
+void Cluster::cut(ord a, const string& p, int& num_cpu, int& num_pro) {
+    if (!a.empty()) {
+        string x = a.value();
+        if (x == p) {
+            clus_it it = conj.find(p);
+            num_cpu += 1;
+            num_pro += it->second.how_many();
+            conj.erase(it);
+            BinTree<string> left, right;
+            left = a.left();
+            right = a.right();
+            counting(left, num_cpu, num_pro);
+            counting(right, num_cpu, num_pro);
+        }
+        else {
+            BinTree<string> left, right;
+            left = a.left();
+            right = a.right();
+            cut(left, p, num_cpu, num_pro);
+            cut(right, p, num_cpu, num_pro);
+
+            a = BinTree<string>(x, left, right);
+        }
+    }
+}
+
+void Cluster::counting(ord a, int& num_cpu, int& num_pro) {
+
 }
 
 bool Cluster::recive_processes(Process a) {

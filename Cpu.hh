@@ -215,6 +215,8 @@ class Cpu {
         \post Returns ffree.
     */
     int what_ffree() const;
+
+    int how_many() const;
 };
 
 #endif

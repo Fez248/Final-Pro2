@@ -58,6 +58,8 @@ class Cluster {
     */
     void reread(BinTree<string>& a, string p);
 
+    void cut(BinTree<string>& a, const string& p, int& num_cpu, int& num_pro);
+
     /**
         @brief Finds the best cpu to insert the process with memory = mem
         and id = identity. It returns an iterator pointing to the best option,
@@ -67,6 +69,8 @@ class Cluster {
         \post ite points to the best cpu to add the process.
     */
     void find_best(const int mem, const int identity, cit ite, ord_ct can);
+
+    void counting(BinTree<string>& a, int& num_cpu, int& num_pro);
 
     public:
 
@@ -183,6 +187,8 @@ class Cluster {
         returns false.
     */
     bool recive_processes(Process a);
+
+    int podar_cluster(const string& id, int& num_cpu, int& num_pro);
 };
 
 #endif

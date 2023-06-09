@@ -147,6 +147,18 @@ int main() {
             cout << "#" << comand << endl;
             clust.cmc();
         }
+        else if (comand == "podar_cluster" or comand == "pd") {
+            string x;
+            cin >> x;
+            cout << "#" << comand << " " << x << endl;
+
+            int num_cpu, num_pro;
+            num_cpu = num_pro = 0;
+            int out = clust.podar_cluster(x, num_cpu, num_pro);
+            if (out == 101) cout << "error: no existe procesador" << endl;
+            else if (out == 102) cout << "error: se intenta borrar la raiz" << endl;
+            else cout << "Poda " << num_cpu << " " << num_pro << endl;
+        }
         cin >> comand;
     }
 }
