@@ -1,0 +1,668 @@
+7
+17
+*
+*
+15
+*
+*
+8
+10
+3
+15
+13
+6
+14
+12
+19
+imprimir_estructura_cluster
+imprimir_area_espera
+imprimir_procesadores_cluster
+ap prioridad7
+ape prioridad7 1 10 19
+ipri prioridad7
+ipri prioridad18
+iae
+cc
+procesador14
+14
+procesador16
+16
+procesador19
+3
+*
+*
+*
+procesador7
+16
+procesador8
+2
+*
+*
+*
+ipc
+ipro procesador16
+ape prioridad7 20 10 6
+ipc
+ipc
+at 4
+at 1
+cc
+procesador1
+3
+procesador11
+5
+procesador18
+15
+*
+*
+*
+procesador2
+18
+procesador20
+6
+*
+*
+*
+iae
+ape prioridad7 7 7 2
+bp prioridad1
+at 4
+ape prioridad7 20 19 12
+iec
+at 5
+ipc
+ape prioridad7 5 2 18
+ipc
+iae
+ape prioridad7 18 14 20
+iae
+ap prioridad13
+ape prioridad13 17 20 20
+at 1
+iec
+ipri prioridad13
+iae
+ape prioridad7 1 20 20
+ipc
+iec
+ape prioridad13 11 16 1
+ape prioridad7 1 18 13
+ipc
+ape prioridad7 8 18 15
+at 9
+cc
+procesador10
+1
+procesador16
+12
+procesador5
+5
+*
+*
+procesador6
+9
+*
+*
+*
+cc
+procesador1
+7
+procesador16
+18
+procesador18
+17
+*
+*
+procesador6
+3
+*
+*
+*
+ipri prioridad3
+ipri prioridad7
+ipc
+bp prioridad7
+cc
+4
+2
+*
+*
+13
+*
+*
+ipri prioridad13
+ape prioridad13 20 8 4
+ape prioridad13 7 15 15
+bp prioridad7
+ape prioridad13 17 10 3
+ipc
+cc
+procesador14
+15
+procesador15
+14
+procesador18
+15
+*
+*
+*
+procesador5
+10
+*
+*
+ipri prioridad13
+iae
+ape prioridad7 11 18 15
+ipc
+cc
+procesador12
+9
+procesador18
+2
+procesador19
+6
+procesador2
+3
+*
+*
+*
+procesador20
+12
+*
+*
+procesador3
+4
+procesador8
+3
+procesador9
+13
+*
+*
+*
+*
+cc
+procesador11
+13
+procesador13
+20
+procesador14
+2
+procesador20
+3
+*
+*
+*
+procesador4
+7
+*
+*
+procesador6
+4
+procesador8
+10
+procesador9
+10
+*
+*
+*
+*
+ape prioridad7 17 15 19
+ipri prioridad13
+iae
+ipri prioridad7
+iae
+iae
+iae
+ape prioridad20 13 6 12
+at 2
+ape prioridad13 9 11 6
+ipri prioridad7
+iec
+at 15
+ape prioridad3 6 1 2
+ipri prioridad13
+at 5
+ipri prioridad13
+ape prioridad2 6 14 7
+ape prioridad17 14 4 11
+at 5
+ipc
+iec
+ipc
+ape prioridad4 15 9 20
+ape prioridad13 5 4 3
+ipc
+ipro procesador17
+ap prioridad13
+ap prioridad16
+ape prioridad15 14 20 13
+iae
+ape prioridad16 2 8 17
+iae
+iae
+ipri prioridad16
+iae
+ape prioridad7 4 8 14
+ape prioridad3 3 9 1
+ipc
+ipro procesador17
+iae
+ipc
+bp prioridad13
+iae
+iae
+ipc
+ipc
+ipc
+ipro procesador3
+ape prioridad19 13 11 14
+ape prioridad17 6 20 14
+iae
+ape prioridad7 9 14 17
+ape prioridad18 6 7 15
+ape prioridad16 4 10 16
+ipri prioridad7
+ape prioridad7 4 10 10
+ipc
+ipro procesador20
+bp prioridad13
+iae
+ape prioridad16 17 7 16
+ipri prioridad13
+ape prioridad16 20 2 15
+ape prioridad7 1 10 2
+ape prioridad16 16 9 7
+bp prioridad7
+ape prioridad7 17 9 10
+iae
+ape prioridad9 13 19 20
+ipc
+at 14
+ipri prioridad13
+ipri prioridad13
+ape prioridad11 19 19 16
+ape prioridad7 16 4 5
+ipc
+bp prioridad7
+ap prioridad16
+bp prioridad16
+iec
+ape prioridad20 12 15 13
+ipc
+ape prioridad5 13 3 14
+cc
+19
+17
+*
+*
+18
+*
+*
+ipro procesador14
+iae
+iae
+at 12
+at 1
+iae
+at 2
+ape prioridad16 17 3 12
+ape prioridad13 11 16 2
+ipc
+iae
+at 10
+ape prioridad8 6 20 2
+ipri prioridad13
+ipc
+cc
+procesador12
+17
+procesador13
+11
+procesador19
+3
+*
+*
+procesador7
+18
+*
+*
+procesador9
+14
+*
+*
+ipc
+ipri prioridad13
+iae
+cc
+procesador11
+17
+procesador12
+16
+procesador16
+2
+*
+*
+*
+procesador3
+5
+*
+*
+ape prioridad3 15 5 3
+iae
+ipri prioridad7
+bp prioridad13
+bp prioridad2
+ape prioridad7 9 2 2
+ipc
+iae
+ipri prioridad16
+ap prioridad15
+cc
+procesador10
+6
+procesador11
+3
+procesador15
+16
+*
+*
+*
+procesador16
+9
+procesador19
+5
+*
+*
+procesador9
+17
+*
+*
+ape prioridad12 14 13 2
+ipc
+iec
+cc
+procesador13
+16
+procesador14
+9
+procesador15
+9
+*
+*
+*
+procesador17
+5
+procesador3
+7
+*
+*
+*
+bp prioridad13
+bp prioridad13
+ap prioridad2
+cc
+procesador1
+20
+procesador13
+9
+procesador5
+19
+*
+*
+procesador6
+4
+*
+*
+procesador9
+17
+*
+*
+ipc
+ape prioridad11 14 20 19
+bp prioridad13
+at 7
+ipri prioridad7
+ipc
+at 3
+ipri prioridad2
+at 2
+at 9
+ipc
+ap prioridad1
+ipri prioridad16
+ape prioridad2 1 17 5
+iae
+iae
+iae
+ipc
+cc
+procesador1
+11
+procesador10
+10
+procesador11
+16
+*
+*
+*
+procesador14
+15
+procesador17
+5
+*
+*
+procesador7
+9
+*
+*
+cc
+procesador11
+19
+procesador12
+2
+procesador16
+5
+procesador17
+20
+*
+*
+*
+procesador3
+5
+*
+*
+procesador4
+13
+procesador7
+16
+procesador8
+6
+*
+*
+*
+*
+ape prioridad19 6 17 16
+ape prioridad2 2 17 1
+cc
+procesador1
+17
+procesador15
+10
+procesador20
+8
+*
+*
+*
+procesador7
+15
+*
+*
+iae
+iae
+ipc
+iec
+iae
+ipc
+ape prioridad17 12 11 7
+ipc
+bp prioridad13
+iae
+iec
+at 11
+iae
+at 6
+iae
+ipri prioridad1
+ape prioridad2 4 2 11
+ipc
+cc
+procesador19
+15
+procesador5
+19
+procesador6
+9
+*
+*
+procesador7
+5
+*
+*
+procesador9
+8
+*
+*
+ap prioridad19
+iae
+ipc
+at 15
+bp prioridad14
+ipri prioridad1
+ipri prioridad13
+ipc
+iae
+ipro procesador19
+ap prioridad3
+bp prioridad2
+iae
+cc
+procesador12
+6
+procesador14
+1
+procesador17
+7
+*
+*
+*
+procesador4
+15
+procesador5
+15
+*
+*
+*
+iae
+ipri prioridad1
+ape prioridad13 7 20 15
+at 7
+ipc
+ape prioridad13 18 1 16
+ipc
+ape prioridad13 7 11 15
+ape prioridad15 18 13 7
+ipc
+ipri prioridad2
+iec
+ipc
+ipri prioridad12
+ipro procesador3
+ipri prioridad20
+iae
+ipri prioridad13
+at 1
+ipri prioridad17
+ap prioridad15
+bp prioridad2
+ipro procesador6
+at 1
+iae
+bp prioridad1
+iae
+iec
+ape prioridad2 11 19 16
+ipri prioridad1
+ape prioridad12 19 18 2
+ipri prioridad19
+ipro procesador3
+ipc
+iae
+at 15
+ipri prioridad14
+ape prioridad13 4 15 15
+ipri prioridad3
+iae
+at 9
+ipc
+at 5
+iae
+ipri prioridad15
+bp prioridad1
+at 10
+ipri prioridad19
+ipc
+iec
+iec
+at 12
+bp prioridad6
+at 3
+ipri prioridad15
+bp prioridad19
+ipri prioridad2
+bp prioridad13
+at 15
+ipri prioridad19
+ipri prioridad20
+at 10
+ipri prioridad9
+ipri prioridad5
+ape prioridad16 9 5 16
+iec
+bp prioridad15
+ape prioridad19 17 1 3
+cc
+5
+15
+*
+*
+5
+*
+*
+ap prioridad12
+ipc
+ape prioridad2 11 20 5
+cc
+procesador11
+5
+procesador14
+14
+procesador2
+9
+*
+*
+procesador20
+15
+*
+*
+*
+ape prioridad15 18 10 20
+ipri prioridad7
+ape prioridad1 5 1 7
+ipri prioridad3
+ipri prioridad16
+iae
+ipc
+imprimir_estructura_cluster
+imprimir_area_espera
+imprimir_procesadores_cluster
+fin

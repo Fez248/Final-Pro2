@@ -101,18 +101,10 @@ int Cpu::add_process_cpu(int identity, int memory, int time) {
     dir_it it2 = es.lower_bound(memory);
     if (it2 == es.end()) return 103;
 
-    set<int>::const_iterator af; //funcionalidad nueva
-    if (it2->second.size() > 1) {
-        af = it2->second.end();
-        --af;
-    }
-    else af = it2->second.begin();
-
-
     max -= memory;
-    int direction = *af;
+    int direction = *(--(it2->second.end()));
     int mem_ava = it2->first;
-    it2->second.erase(it2->second.begin());
+    it2->second.erase(direction);
 
     bool need_check = true; //used to know if we need to check ffree later
 

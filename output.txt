@@ -1,0 +1,250 @@
+#imprimir_estructura_cluster
+(proc1(proc11(proc111  )(proc112  ))(proc12(proc121  )(proc122  )))
+#imprimir_area_espera
+11
+0 0
+111
+0 0
+1111
+0 0
+11111
+0 0
+#imprimir_procesadores_cluster
+proc1
+proc11
+proc111
+proc112
+proc12
+proc121
+proc122
+#alta_proceso_procesador pr 99
+error: no existe procesador
+#app proc12 99
+#imprimir_procesador pr
+error: no existe procesador
+#modificar_cluster pp
+error: no existe procesador
+#pc proc11
+Poda 3 0
+#iec
+(proc1 (proc12(proc121  )(proc122  )))
+#ipc
+proc1
+proc12
+0 99 10 15
+proc121
+proc122
+#mc proc1
+error: procesador con auxiliares
+#ipro proc12
+0 99 10 15
+#mc proc12
+error: procesador con procesos
+#mc proc121
+#iec
+(proc1 (proc12(p1(p2  )(p3  ))(proc122  )))
+#ipc
+p1
+p2
+p3
+proc1
+proc12
+0 99 10 15
+proc122
+#ipro proc12
+0 99 10 15
+#app proc1 99
+#ipro proc1
+0 99 10 10
+#alta_proceso_procesador proc1 99
+error: ya existe proceso
+#app proc12 101
+error: no cabe proceso
+#app proc12 101
+#ipc
+p1
+p2
+p3
+proc1
+0 99 10 10
+proc12
+0 99 10 15
+10 101 90 15
+proc122
+#baja_proceso_procesador pr 99
+error: no existe procesador
+#bpp proc12 100
+error: no existe proceso
+#bpp proc12 99
+#ipro proc12
+10 101 90 15
+#avanzar_tiempo 7
+#imprimir_procesador proc12
+10 101 90 8
+#at 2
+#ipro proc1
+0 99 10 1
+#alta_proceso_espera 222 99
+error: no existe prioridad
+#ape 111 99
+#ape 111 99
+error: ya existe proceso
+#ape 111 98
+#ape 111 100
+#imprimir_prioridad 222
+error: no existe prioridad
+#ipri 111
+99 10 10
+98 1000 20
+100 10 1
+0 0
+#alta_prioridad 1111
+error: ya existe prioridad
+#ap 2
+#baja_prioridad 333
+error: no existe prioridad
+#bp 111
+error: prioridad con procesos
+#bp 11
+#ape 1111 80
+#ape 111 80
+#iae
+111
+99 10 10
+98 1000 20
+100 10 1
+80 5 5
+0 0
+1111
+80 10 10
+0 0
+11111
+0 0
+2
+0 0
+#enviar_procesos_cluster 1
+#ipc
+p1
+p2
+p3
+proc1
+0 99 10 1
+proc12
+0 99 10 10
+10 101 90 6
+proc122
+#iae
+111
+98 1000 20
+100 10 1
+80 5 5
+1 0
+1111
+80 10 10
+0 0
+11111
+0 0
+2
+0 0
+#epc 100
+#ipc
+p1
+0 100 10 1
+10 80 5 5
+p2
+0 80 10 10
+p3
+proc1
+0 99 10 1
+proc12
+0 99 10 10
+10 101 90 6
+proc122
+#iae
+111
+98 1000 20
+3 1
+1111
+1 0
+11111
+0 0
+2
+0 0
+#configurar_cluster
+#iec
+(sndr01  )
+#cc
+#iec
+(abc (zsda  ))
+#iae
+111
+98 1000 20
+3 1
+1111
+1 0
+11111
+0 0
+2
+0 0
+#cmp proc
+error: no existe procesador
+#compactar_memoria_procesador abc
+#ipro abc
+#app abc 40
+#app abc 30
+#app abc 10
+#app abc 20
+#app zsda 30
+#at 5
+#compactar_memoria_cluster
+#ipc
+abc
+0 40 50 3
+50 10 50 5
+zsda
+0 30 50 10
+#at 4
+#cmc
+#ipc
+abc
+0 10 50 1
+zsda
+0 30 50 6
+#iec
+(abc (zsda  ))
+#pc zsda
+Poda 1 1
+#iec
+(abc  )
+#ipc
+abc
+0 10 50 1
+#podar_cluster ryzen
+error: no existe procesador
+#iec
+(abc  )
+#ipc
+abc
+0 10 50 1
+#pc abc
+error: se intenta borrar la raiz
+#iec
+(abc  )
+#ipc
+abc
+0 10 50 1
+#app abc 90
+#ipro abc
+0 10 50 1
+50 90 100 5
+#bpp abc 10
+#ipro abc
+50 90 100 5
+#app abc 95
+#ipro abc
+50 90 100 5
+150 95 50 5
+#cmp abc
+#ipro abc
+0 90 100 5
+100 95 50 5

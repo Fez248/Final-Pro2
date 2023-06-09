@@ -1,0 +1,244 @@
+#imprimir_estructura_cluster
+(procesador3(procesador7(procesador8  ) )(procesador9  ))
+#imprimir_area_espera
+1
+0 0
+10
+0 0
+3
+0 0
+4
+0 0
+5
+0 0
+6
+0 0
+7
+0 0
+8
+0 0
+9
+0 0
+#imprimir_procesadores_cluster
+procesador3
+procesador7
+procesador8
+procesador9
+#iae
+1
+0 0
+10
+0 0
+3
+0 0
+4
+0 0
+5
+0 0
+6
+0 0
+7
+0 0
+8
+0 0
+9
+0 0
+#at 9
+#ipc
+procesador3
+procesador7
+procesador8
+procesador9
+#ipc
+procesador3
+procesador7
+procesador8
+procesador9
+#ipro procesador10
+error: no existe procesador
+#iae
+1
+0 0
+10
+0 0
+3
+0 0
+4
+0 0
+5
+0 0
+6
+0 0
+7
+0 0
+8
+0 0
+9
+0 0
+#ipc
+procesador3
+procesador7
+procesador8
+procesador9
+#iec
+(procesador3(procesador7(procesador8  ) )(procesador9  ))
+#iec
+(procesador3(procesador7(procesador8  ) )(procesador9  ))
+#ipro procesador2
+error: no existe procesador
+#at 13
+#bp prioridad1
+error: no existe prioridad
+#ipri prioridad7
+error: no existe prioridad
+#iec
+(procesador3(procesador7(procesador8  ) )(procesador9  ))
+#ipc
+procesador3
+procesador7
+procesador8
+procesador9
+#ap prioridad3
+#iec
+(procesador3(procesador7(procesador8  ) )(procesador9  ))
+#ipri prioridad3
+0 0
+#at 12
+#iae
+1
+0 0
+10
+0 0
+3
+0 0
+4
+0 0
+5
+0 0
+6
+0 0
+7
+0 0
+8
+0 0
+9
+0 0
+prioridad3
+0 0
+#ipri prioridad3
+0 0
+#ape prioridad3 2
+#ap prioridad2
+#at 1
+#at 14
+#ap prioridad4
+#ape prioridad2 2
+#bp prioridad3
+error: prioridad con procesos
+#ipro procesador2
+error: no existe procesador
+#ape prioridad3 2
+error: ya existe proceso
+#ipri prioridad3
+2 14 14
+0 0
+#ipc
+procesador3
+procesador7
+procesador8
+procesador9
+#ape prioridad2 2
+error: ya existe proceso
+#at 11
+#ipc
+procesador3
+procesador7
+procesador8
+procesador9
+#ipc
+procesador3
+procesador7
+procesador8
+procesador9
+#ipri prioridad3
+2 14 14
+0 0
+#at 7
+#ipro procesador7
+#ipri prioridad1
+error: no existe prioridad
+#ape prioridad4 2
+#at 12
+#iec
+(procesador3(procesador7(procesador8  ) )(procesador9  ))
+#ape prioridad4 2
+error: ya existe proceso
+#ipri prioridad4
+2 5 12
+0 0
+#iae
+1
+0 0
+10
+0 0
+3
+0 0
+4
+0 0
+5
+0 0
+6
+0 0
+7
+0 0
+8
+0 0
+9
+0 0
+prioridad2
+2 16 20
+0 0
+prioridad3
+2 14 14
+0 0
+prioridad4
+2 5 12
+0 0
+#at 5
+#bp prioridad2
+error: prioridad con procesos
+#imprimir_estructura_cluster
+(procesador3(procesador7(procesador8  ) )(procesador9  ))
+#imprimir_area_espera
+1
+0 0
+10
+0 0
+3
+0 0
+4
+0 0
+5
+0 0
+6
+0 0
+7
+0 0
+8
+0 0
+9
+0 0
+prioridad2
+2 16 20
+0 0
+prioridad3
+2 14 14
+0 0
+prioridad4
+2 5 12
+0 0
+#imprimir_procesadores_cluster
+procesador3
+procesador7
+procesador8
+procesador9

@@ -26,9 +26,7 @@ int Cluster::podar_cluster(const string& id, int& num_cpu, int& num_pro) {
     clus_it it = conj.find(id);
     if (it == conj.end()) return 101;
     if (id == cluster.value()) return 102;
-    
-    
-    
+    cut(cluster, id, num_cpu, num_pro);    
     return 100;
 }
 
@@ -84,7 +82,7 @@ bool Cluster::read_bintree(ord a) {
     else return true;
 }
 
-void Cluster::reread(ord a, string p) {
+void Cluster::reread(ord a, const string& p) {
     if (!a.empty()) {
         string x = a.value();
         if (x == p) read_bintree(a);
@@ -113,6 +111,7 @@ void Cluster::cut(ord a, const string& p, int& num_cpu, int& num_pro) {
             right = a.right();
             counting(left, num_cpu, num_pro);
             counting(right, num_cpu, num_pro);
+            a = BinTree<string>();
         }
         else {
             BinTree<string> left, right;
@@ -127,7 +126,17 @@ void Cluster::cut(ord a, const string& p, int& num_cpu, int& num_pro) {
 }
 
 void Cluster::counting(ord a, int& num_cpu, int& num_pro) {
-
+    if (!a.empty()) {
+        clus_it it = conj.find(a.value());
+        num_cpu += 1;
+        num_pro += it->second.how_many();
+        conj.erase(it);
+        BinTree<string> left, right;
+        left = a.left();
+        right = a.right();
+        counting(left, num_cpu, num_pro);
+        counting(right, num_cpu, num_pro);
+    }
 }
 
 bool Cluster::recive_processes(Process a) {

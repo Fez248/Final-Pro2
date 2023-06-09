@@ -1,0 +1,3990 @@
+#imprimir_estructura_cluster
+(procesador10(procesador14(procesador3  ) )(procesador6  ))
+#imprimir_area_espera
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+#imprimir_procesadores_cluster
+procesador10
+procesador14
+procesador3
+procesador6
+#cc
+#ipro procesador6
+error: no existe procesador
+#ipc
+procesador13
+procesador2
+procesador3
+procesador5
+procesador8
+#ipc
+procesador13
+procesador2
+procesador3
+procesador5
+procesador8
+#iec
+(procesador13(procesador2(procesador3  )(procesador5  ))(procesador8  ))
+#at 14
+#ape prioridad2 14
+error: no existe prioridad
+#at 12
+#cc
+#iec
+(procesador1(procesador11(procesador13  )(procesador3(procesador6  ) ))(procesador7(procesador8  )(procesador9  )))
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+#bp prioridad3
+error: no existe prioridad
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+#ipc
+procesador1
+procesador11
+procesador13
+procesador3
+procesador6
+procesador7
+procesador8
+procesador9
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+#cc
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+#iec
+(procesador10(procesador14(procesador5  ) )(procesador9  ))
+#cc
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+#ipc
+10
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+#at 2
+#ape prioridad8 6
+error: no existe prioridad
+#ipc
+10
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+#ipc
+10
+#at 14
+#at 4
+#ipc
+10
+#ape prioridad6 6
+error: no existe prioridad
+#iec
+(10  )
+#ipc
+10
+#cc
+#at 8
+#ape prioridad1 6
+error: no existe prioridad
+#ape prioridad2 4
+error: no existe prioridad
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+#iec
+(procesador10(procesador12(procesador13  ) )(procesador15(procesador3  )(procesador4  )))
+#iec
+(procesador10(procesador12(procesador13  ) )(procesador15(procesador3  )(procesador4  )))
+#ipc
+procesador10
+procesador12
+procesador13
+procesador15
+procesador3
+procesador4
+#iec
+(procesador10(procesador12(procesador13  ) )(procesador15(procesador3  )(procesador4  )))
+#ipc
+procesador10
+procesador12
+procesador13
+procesador15
+procesador3
+procesador4
+#cc
+#ape prioridad14 4
+error: no existe prioridad
+#ipc
+procesador10
+procesador11
+procesador13
+procesador14
+procesador2
+procesador4
+procesador5
+procesador9
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+#ap prioridad10
+#at 3
+#ap prioridad4
+#ipc
+procesador10
+procesador11
+procesador13
+procesador14
+procesador2
+procesador4
+procesador5
+procesador9
+#cc
+#ape prioridad4 3
+#ipc
+procesador10
+procesador12
+procesador13
+procesador14
+procesador15
+procesador4
+procesador5
+procesador7
+#ipro procesador5
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+0 0
+prioridad4
+3 20 9
+0 0
+#ape prioridad5 6
+error: no existe prioridad
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+0 0
+prioridad4
+3 20 9
+0 0
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+0 0
+prioridad4
+3 20 9
+0 0
+#cc
+#at 14
+#bp prioridad4
+error: prioridad con procesos
+#ape prioridad10 13
+#cc
+#ape prioridad4 1
+#ipc
+procesador10
+procesador4
+procesador5
+procesador8
+#ape prioridad5 15
+error: no existe prioridad
+#bp prioridad15
+error: no existe prioridad
+#ape prioridad10 8
+#at 12
+#ap prioridad13
+#at 14
+#iec
+(procesador10(procesador4(procesador5  ) )(procesador8  ))
+#at 2
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+0 0
+prioridad13
+0 0
+prioridad4
+3 20 9
+1 11 18
+0 0
+#at 13
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+0 0
+prioridad13
+0 0
+prioridad4
+3 20 9
+1 11 18
+0 0
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+0 0
+prioridad13
+0 0
+prioridad4
+3 20 9
+1 11 18
+0 0
+#ape prioridad4 3
+error: ya existe proceso
+#ap prioridad8
+#ipri prioridad10
+13 20 20
+8 13 20
+0 0
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+0 0
+prioridad13
+0 0
+prioridad4
+3 20 9
+1 11 18
+0 0
+prioridad8
+0 0
+#cc
+#ap prioridad14
+#iec
+(procesador13(procesador4(procesador5  )(procesador7  ))(procesador9  ))
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+0 0
+prioridad13
+0 0
+prioridad14
+0 0
+prioridad4
+3 20 9
+1 11 18
+0 0
+prioridad8
+0 0
+#ap prioridad7
+#cc
+#ipc
+procesador1
+procesador12
+procesador3
+procesador4
+procesador8
+#ipc
+procesador1
+procesador12
+procesador3
+procesador4
+procesador8
+#ipc
+procesador1
+procesador12
+procesador3
+procesador4
+procesador8
+#bp prioridad8
+#at 4
+#ape prioridad7 5
+#ipc
+procesador1
+procesador12
+procesador3
+procesador4
+procesador8
+#ape prioridad12 7
+error: no existe prioridad
+#iec
+(procesador1(procesador12(procesador3  )(procesador4  ))(procesador8  ))
+#ap prioridad15
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+0 0
+prioridad13
+0 0
+prioridad14
+0 0
+prioridad15
+0 0
+prioridad4
+3 20 9
+1 11 18
+0 0
+prioridad7
+5 2 3
+0 0
+#ipc
+procesador1
+procesador12
+procesador3
+procesador4
+procesador8
+#cc
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+0 0
+prioridad13
+0 0
+prioridad14
+0 0
+prioridad15
+0 0
+prioridad4
+3 20 9
+1 11 18
+0 0
+prioridad7
+5 2 3
+0 0
+#ipc
+procesador1
+procesador10
+procesador12
+procesador13
+procesador14
+procesador2
+procesador5
+procesador9
+#ap prioridad7
+error: ya existe prioridad
+#ipri prioridad2
+error: no existe prioridad
+#cc
+#cc
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+0 0
+prioridad13
+0 0
+prioridad14
+0 0
+prioridad15
+0 0
+prioridad4
+3 20 9
+1 11 18
+0 0
+prioridad7
+5 2 3
+0 0
+#ape prioridad4 3
+error: ya existe proceso
+#ipc
+procesador13
+procesador6
+procesador7
+procesador9
+#ipri prioridad13
+0 0
+#ipc
+procesador13
+procesador6
+procesador7
+procesador9
+#ipri prioridad7
+5 2 3
+0 0
+#ap prioridad4
+error: ya existe prioridad
+#cc
+#at 2
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+0 0
+prioridad13
+0 0
+prioridad14
+0 0
+prioridad15
+0 0
+prioridad4
+3 20 9
+1 11 18
+0 0
+prioridad7
+5 2 3
+0 0
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+0 0
+prioridad13
+0 0
+prioridad14
+0 0
+prioridad15
+0 0
+prioridad4
+3 20 9
+1 11 18
+0 0
+prioridad7
+5 2 3
+0 0
+#at 10
+#ape prioridad2 6
+error: no existe prioridad
+#bp prioridad14
+#ipri prioridad15
+0 0
+#ape prioridad10 9
+#bp prioridad7
+error: prioridad con procesos
+#ipc
+procesador1
+procesador11
+procesador13
+procesador14
+procesador2
+procesador4
+procesador8
+procesador9
+#ap prioridad5
+#ape prioridad2 4
+error: no existe prioridad
+#ipc
+procesador1
+procesador11
+procesador13
+procesador14
+procesador2
+procesador4
+procesador8
+procesador9
+#iec
+(procesador1(procesador11(procesador13  )(procesador14(procesador2  ) ))(procesador4(procesador8  )(procesador9  )))
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+0 0
+prioridad13
+0 0
+prioridad15
+0 0
+prioridad4
+3 20 9
+1 11 18
+0 0
+prioridad5
+0 0
+prioridad7
+5 2 3
+0 0
+#ape prioridad10 9
+error: ya existe proceso
+#ipri prioridad5
+0 0
+#iec
+(procesador1(procesador11(procesador13  )(procesador14(procesador2  ) ))(procesador4(procesador8  )(procesador9  )))
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+0 0
+prioridad13
+0 0
+prioridad15
+0 0
+prioridad4
+3 20 9
+1 11 18
+0 0
+prioridad5
+0 0
+prioridad7
+5 2 3
+0 0
+#ape prioridad13 8
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+0 0
+prioridad13
+8 3 1
+0 0
+prioridad15
+0 0
+prioridad4
+3 20 9
+1 11 18
+0 0
+prioridad5
+0 0
+prioridad7
+5 2 3
+0 0
+#at 3
+#cc
+#at 13
+#iec
+(procesador1(procesador10(procesador12(procesador13  ) )(procesador14  ))(procesador15(procesador2(procesador8  ) ) ))
+#ape prioridad4 2
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+0 0
+prioridad13
+8 3 1
+0 0
+prioridad15
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+0 0
+prioridad5
+0 0
+prioridad7
+5 2 3
+0 0
+#ipc
+procesador1
+procesador10
+procesador12
+procesador13
+procesador14
+procesador15
+procesador2
+procesador8
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+0 0
+prioridad13
+8 3 1
+0 0
+prioridad15
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+0 0
+prioridad5
+0 0
+prioridad7
+5 2 3
+0 0
+#ipri prioridad8
+error: no existe prioridad
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+0 0
+prioridad13
+8 3 1
+0 0
+prioridad15
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+0 0
+prioridad5
+0 0
+prioridad7
+5 2 3
+0 0
+#cc
+#ape prioridad4 3
+error: ya existe proceso
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+0 0
+prioridad13
+8 3 1
+0 0
+prioridad15
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+0 0
+prioridad5
+0 0
+prioridad7
+5 2 3
+0 0
+#ipc
+procesador12
+procesador13
+procesador14
+procesador2
+#ape prioridad4 2
+error: ya existe proceso
+#at 8
+#ipri prioridad8
+error: no existe prioridad
+#cc
+#ipri prioridad4
+3 20 9
+1 11 18
+2 15 14
+0 0
+#ipc
+procesador10
+procesador14
+procesador2
+procesador7
+#ape prioridad9 10
+error: no existe prioridad
+#ape prioridad15 11
+#ape prioridad6 15
+error: no existe prioridad
+#ape prioridad4 9
+#ape prioridad15 9
+#at 13
+#ipri prioridad9
+error: no existe prioridad
+#ipc
+procesador10
+procesador14
+procesador2
+procesador7
+#ipri prioridad8
+error: no existe prioridad
+#ipc
+procesador10
+procesador14
+procesador2
+procesador7
+#ipri prioridad1
+error: no existe prioridad
+#ipri prioridad12
+error: no existe prioridad
+#ipc
+procesador10
+procesador14
+procesador2
+procesador7
+#ipri prioridad10
+13 20 20
+8 13 20
+9 9 15
+0 0
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+0 0
+prioridad13
+8 3 1
+0 0
+prioridad15
+11 17 5
+9 19 19
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+0 0
+prioridad5
+0 0
+prioridad7
+5 2 3
+0 0
+#ape prioridad7 11
+#at 14
+#bp prioridad14
+error: no existe prioridad
+#at 6
+#at 3
+#cc
+#ipri prioridad11
+error: no existe prioridad
+#ape prioridad14 12
+error: no existe prioridad
+#ape prioridad4 13
+#bp prioridad15
+error: prioridad con procesos
+#ipro procesador12
+error: no existe procesador
+#ipc
+19
+#bp prioridad12
+error: no existe prioridad
+#cc
+#ape prioridad13 12
+#at 3
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+0 0
+prioridad15
+11 17 5
+9 19 19
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+0 0
+prioridad7
+5 2 3
+11 6 14
+0 0
+#ape prioridad5 2
+#ipc
+procesador11
+procesador14
+procesador2
+procesador3
+procesador4
+procesador5
+procesador6
+procesador8
+#iec
+(procesador11(procesador14(procesador2  )(procesador3(procesador4  ) ))(procesador5(procesador6  )(procesador8  )))
+#ipri prioridad2
+error: no existe prioridad
+#ipri prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+#ipc
+procesador11
+procesador14
+procesador2
+procesador3
+procesador4
+procesador5
+procesador6
+procesador8
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+0 0
+prioridad15
+11 17 5
+9 19 19
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+0 0
+prioridad7
+5 2 3
+11 6 14
+0 0
+#ape prioridad14 8
+error: no existe prioridad
+#iec
+(procesador11(procesador14(procesador2  )(procesador3(procesador4  ) ))(procesador5(procesador6  )(procesador8  )))
+#at 7
+#ape prioridad1 4
+error: no existe prioridad
+#ipri prioridad10
+13 20 20
+8 13 20
+9 9 15
+0 0
+#ipri prioridad5
+2 7 8
+0 0
+#ape prioridad7 11
+error: ya existe proceso
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+0 0
+prioridad15
+11 17 5
+9 19 19
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+0 0
+prioridad7
+5 2 3
+11 6 14
+0 0
+#at 5
+#ipri prioridad8
+error: no existe prioridad
+#ape prioridad8 5
+error: no existe prioridad
+#bp prioridad15
+error: prioridad con procesos
+#at 3
+#iec
+(procesador11(procesador14(procesador2  )(procesador3(procesador4  ) ))(procesador5(procesador6  )(procesador8  )))
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+0 0
+prioridad15
+11 17 5
+9 19 19
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+0 0
+prioridad7
+5 2 3
+11 6 14
+0 0
+#bp prioridad11
+error: no existe prioridad
+#at 14
+#iec
+(procesador11(procesador14(procesador2  )(procesador3(procesador4  ) ))(procesador5(procesador6  )(procesador8  )))
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+0 0
+prioridad15
+11 17 5
+9 19 19
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+0 0
+prioridad7
+5 2 3
+11 6 14
+0 0
+#at 8
+#iec
+(procesador11(procesador14(procesador2  )(procesador3(procesador4  ) ))(procesador5(procesador6  )(procesador8  )))
+#iec
+(procesador11(procesador14(procesador2  )(procesador3(procesador4  ) ))(procesador5(procesador6  )(procesador8  )))
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+0 0
+prioridad15
+11 17 5
+9 19 19
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+0 0
+prioridad7
+5 2 3
+11 6 14
+0 0
+#ipri prioridad1
+error: no existe prioridad
+#bp prioridad13
+error: prioridad con procesos
+#at 8
+#at 13
+#bp prioridad3
+error: no existe prioridad
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+0 0
+prioridad15
+11 17 5
+9 19 19
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+0 0
+prioridad7
+5 2 3
+11 6 14
+0 0
+#ape prioridad8 3
+error: no existe prioridad
+#ipc
+procesador11
+procesador14
+procesador2
+procesador3
+procesador4
+procesador5
+procesador6
+procesador8
+#at 15
+#ipc
+procesador11
+procesador14
+procesador2
+procesador3
+procesador4
+procesador5
+procesador6
+procesador8
+#ipc
+procesador11
+procesador14
+procesador2
+procesador3
+procesador4
+procesador5
+procesador6
+procesador8
+#ape prioridad13 11
+#ape prioridad10 9
+error: ya existe proceso
+#ipro procesador3
+#ap prioridad12
+#ipc
+procesador11
+procesador14
+procesador2
+procesador3
+procesador4
+procesador5
+procesador6
+procesador8
+#at 6
+#iec
+(procesador11(procesador14(procesador2  )(procesador3(procesador4  ) ))(procesador5(procesador6  )(procesador8  )))
+#bp prioridad1
+error: no existe prioridad
+#ipro procesador9
+error: no existe procesador
+#ap prioridad6
+#bp prioridad2
+error: no existe prioridad
+#ap prioridad8
+#at 6
+#ipri prioridad11
+error: no existe prioridad
+#ipc
+procesador11
+procesador14
+procesador2
+procesador3
+procesador4
+procesador5
+procesador6
+procesador8
+#ape prioridad10 2
+#ape prioridad7 1
+#ap prioridad3
+#ipri prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+#ipc
+procesador11
+procesador14
+procesador2
+procesador3
+procesador4
+procesador5
+procesador6
+procesador8
+#ape prioridad12 5
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+0 0
+prioridad12
+5 3 3
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+0 0
+prioridad6
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+0 0
+prioridad8
+0 0
+#ape prioridad14 3
+error: no existe prioridad
+#ape prioridad6 5
+#ape prioridad12 3
+#bp prioridad7
+error: prioridad con procesos
+#ipc
+procesador11
+procesador14
+procesador2
+procesador3
+procesador4
+procesador5
+procesador6
+procesador8
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+0 0
+prioridad12
+5 3 3
+3 8 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+0 0
+prioridad8
+0 0
+#ape prioridad2 6
+error: no existe prioridad
+#at 14
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+0 0
+prioridad12
+5 3 3
+3 8 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+0 0
+prioridad8
+0 0
+#ipri prioridad12
+5 3 3
+3 8 15
+0 0
+#cc
+#at 3
+#ap prioridad11
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+0 0
+prioridad11
+0 0
+prioridad12
+5 3 3
+3 8 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+0 0
+prioridad8
+0 0
+#ipc
+procesador10
+procesador12
+procesador13
+procesador3
+procesador4
+#bp prioridad5
+error: prioridad con procesos
+#ape prioridad5 12
+#iec
+(procesador10(procesador12(procesador13  )(procesador3  ))(procesador4  ))
+#ipc
+procesador10
+procesador12
+procesador13
+procesador3
+procesador4
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+0 0
+prioridad11
+0 0
+prioridad12
+5 3 3
+3 8 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+0 0
+prioridad8
+0 0
+#cc
+#ape prioridad15 2
+#bp prioridad4
+error: prioridad con procesos
+#ipro procesador10
+#bp prioridad11
+#ap prioridad7
+error: ya existe prioridad
+#ape prioridad7 3
+#ipc
+procesador10
+procesador12
+procesador13
+procesador2
+procesador4
+procesador7
+#ap prioridad2
+#ape prioridad10 11
+#ape prioridad8 13
+#ape prioridad1 6
+error: no existe prioridad
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+0 0
+#bp prioridad7
+error: prioridad con procesos
+#bp prioridad12
+error: prioridad con procesos
+#ipri prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+#ap prioridad9
+#ape prioridad2 12
+#iec
+(procesador10(procesador12(procesador13  ) )(procesador2(procesador4  )(procesador7  )))
+#iec
+(procesador10(procesador12(procesador13  ) )(procesador2(procesador4  )(procesador7  )))
+#ape prioridad8 8
+#ap prioridad1
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+0 0
+#at 7
+#at 15
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+0 0
+#bp prioridad8
+error: prioridad con procesos
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+0 0
+#ape prioridad11 11
+error: no existe prioridad
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+0 0
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+0 0
+#at 6
+#cc
+#at 1
+#ipc
+procesador1
+procesador11
+procesador12
+procesador13
+procesador14
+procesador2
+procesador5
+procesador6
+#at 3
+#at 7
+#cc
+#cc
+#ipc
+procesador1
+procesador12
+procesador14
+procesador4
+procesador9
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+0 0
+#ipc
+procesador1
+procesador12
+procesador14
+procesador4
+procesador9
+#iec
+(procesador1(procesador12(procesador14  )(procesador4  ))(procesador9  ))
+#ape prioridad5 3
+#cc
+#ipc
+18
+#ipri prioridad12
+5 3 3
+3 8 15
+0 0
+#ipri prioridad6
+5 2 4
+0 0
+#ipc
+18
+#iec
+(18  )
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+0 0
+#ap prioridad5
+error: ya existe prioridad
+#ape prioridad12 12
+#ipri prioridad2
+12 1 17
+0 0
+#at 9
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+12 11 1
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+0 0
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+12 11 1
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+0 0
+#iec
+(18  )
+#ipc
+18
+#ipro procesador7
+error: no existe procesador
+#cc
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+12 11 1
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+0 0
+#at 13
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+12 11 1
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+0 0
+#ape prioridad14 5
+error: no existe prioridad
+#ipc
+procesador12
+procesador5
+procesador8
+procesador9
+#iec
+(procesador12(procesador5(procesador8  ) )(procesador9  ))
+#cc
+#bp prioridad5
+error: prioridad con procesos
+#at 10
+#at 15
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+12 11 1
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+0 0
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+12 11 1
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+0 0
+#at 7
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+12 11 1
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+0 0
+#ipri prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+#ape prioridad2 3
+#at 3
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+12 11 1
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+3 18 10
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+0 0
+#iec
+(procesador1(procesador10(procesador12(procesador13  ) )(procesador15  ))(procesador5(procesador7(procesador8  ) ) ))
+#cc
+#at 15
+#ipro procesador13
+error: no existe procesador
+#ipri prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+#ipc
+5
+#ipri prioridad5
+2 7 8
+12 13 13
+3 17 12
+0 0
+#at 9
+#iec
+(5  )
+#cc
+#ipro procesador6
+#ape prioridad14 3
+error: no existe prioridad
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+12 11 1
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+3 18 10
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+0 0
+#ipc
+procesador11
+procesador14
+procesador15
+procesador2
+procesador3
+procesador5
+procesador6
+procesador8
+#ape prioridad14 11
+error: no existe prioridad
+#at 6
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+12 11 1
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+3 18 10
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+0 0
+#at 2
+#at 8
+#at 4
+#ape prioridad9 5
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+12 11 1
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+3 18 10
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+5 7 4
+0 0
+#ape prioridad5 13
+#ipc
+procesador11
+procesador14
+procesador15
+procesador2
+procesador3
+procesador5
+procesador6
+procesador8
+#ipc
+procesador11
+procesador14
+procesador15
+procesador2
+procesador3
+procesador5
+procesador6
+procesador8
+#ape prioridad7 1
+error: ya existe proceso
+#cc
+#ipc
+procesador10
+procesador11
+procesador12
+procesador13
+procesador14
+procesador4
+procesador7
+procesador8
+#ipri prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+12 11 1
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+3 18 10
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+13 2 14
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+5 7 4
+0 0
+#iec
+(procesador10(procesador11(procesador12  )(procesador13(procesador14  ) ))(procesador4(procesador7  )(procesador8  )))
+#ipro procesador3
+error: no existe procesador
+#ipri prioridad12
+5 3 3
+3 8 15
+12 11 1
+0 0
+#bp prioridad13
+error: prioridad con procesos
+#ape prioridad10 8
+error: ya existe proceso
+#at 14
+#bp prioridad12
+error: prioridad con procesos
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+12 11 1
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+3 18 10
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+13 2 14
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+5 7 4
+0 0
+#ipri prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+#ape prioridad7 3
+error: ya existe proceso
+#ap prioridad2
+error: ya existe prioridad
+#ipri prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+#ipc
+procesador10
+procesador11
+procesador12
+procesador13
+procesador14
+procesador4
+procesador7
+procesador8
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+12 11 1
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+3 18 10
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+13 2 14
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+5 7 4
+0 0
+#ipc
+procesador10
+procesador11
+procesador12
+procesador13
+procesador14
+procesador4
+procesador7
+procesador8
+#ipc
+procesador10
+procesador11
+procesador12
+procesador13
+procesador14
+procesador4
+procesador7
+procesador8
+#cc
+#bp prioridad12
+error: prioridad con procesos
+#ipc
+procesador1
+procesador11
+procesador14
+procesador2
+#at 8
+#ipro procesador8
+error: no existe procesador
+#at 1
+#ape prioridad2 11
+#ipc
+procesador1
+procesador11
+procesador14
+procesador2
+#ipri prioridad14
+error: no existe prioridad
+#ipc
+procesador1
+procesador11
+procesador14
+procesador2
+#iec
+(procesador1(procesador11(procesador14  ) )(procesador2  ))
+#bp prioridad2
+error: prioridad con procesos
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+12 11 1
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+3 18 10
+11 20 10
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+13 2 14
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+5 7 4
+0 0
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+12 11 1
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+3 18 10
+11 20 10
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+13 2 14
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+5 7 4
+0 0
+#ipc
+procesador1
+procesador11
+procesador14
+procesador2
+#ape prioridad12 9
+#ipc
+procesador1
+procesador11
+procesador14
+procesador2
+#ipc
+procesador1
+procesador11
+procesador14
+procesador2
+#ipro procesador14
+#at 15
+#ipro procesador4
+error: no existe procesador
+#ipri prioridad11
+error: no existe prioridad
+#iae
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+12 11 1
+9 5 4
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+3 18 10
+11 20 10
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+13 2 14
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+5 7 4
+0 0
+#imprimir_estructura_cluster
+(procesador1(procesador11(procesador14  ) )(procesador2  ))
+#imprimir_area_espera
+10
+0 0
+14
+0 0
+15
+0 0
+4
+0 0
+6
+0 0
+7
+0 0
+prioridad1
+0 0
+prioridad10
+13 20 20
+8 13 20
+9 9 15
+2 14 20
+11 8 12
+0 0
+prioridad12
+5 3 3
+3 8 15
+12 11 1
+9 5 4
+0 0
+prioridad13
+8 3 1
+12 4 6
+11 17 11
+0 0
+prioridad15
+11 17 5
+9 19 19
+2 20 3
+0 0
+prioridad2
+12 1 17
+3 18 10
+11 20 10
+0 0
+prioridad3
+0 0
+prioridad4
+3 20 9
+1 11 18
+2 15 14
+9 4 8
+13 13 15
+0 0
+prioridad5
+2 7 8
+12 13 13
+3 17 12
+13 2 14
+0 0
+prioridad6
+5 2 4
+0 0
+prioridad7
+5 2 3
+11 6 14
+1 3 6
+3 13 1
+0 0
+prioridad8
+13 20 15
+8 10 3
+0 0
+prioridad9
+5 7 4
+0 0
+#imprimir_procesadores_cluster
+procesador1
+procesador11
+procesador14
+procesador2

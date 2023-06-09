@@ -1,0 +1,149 @@
+proc1 10 proc11 100 proc111 500 * * proc112 500 * * proc12 100 proc121
+500 * * proc122 500 * *
+4
+1111
+11
+11111
+111
+imprimir_estructura_cluster
+imprimir_area_espera
+imprimir_procesadores_cluster
+alta_proceso_procesador
+pr 99 15 15
+app proc12 99 10 15
+imprimir_procesador pr
+modificar_cluster pp
+p1
+100
+*
+*
+
+pc proc11
+iec
+ipc
+
+mc proc1
+p2
+100
+*
+*
+ipro proc12
+mc proc12
+p3
+100
+*
+*
+mc proc121
+p1
+100
+p2
+100
+*
+*
+p3
+100
+*
+*
+iec
+ipc
+ipro proc12
+app proc1 99 10 10
+ipro proc1
+alta_proceso_procesador
+proc1 99 5 5
+app proc12 101 91 15
+app proc12 101 90 15
+ipc
+baja_proceso_procesador
+pr 99
+bpp proc12 100
+bpp proc12 99
+ipro proc12
+avanzar_tiempo 7
+imprimir_procesador proc12
+at 2
+ipro proc1
+alta_proceso_espera 222 99 10 10
+
+ape 111 99 10 10
+
+ape 111 99 20 15
+
+ape 111 98 1000 20
+
+ape 111 100 10 1
+
+imprimir_prioridad 222
+ipri 111
+alta_prioridad 1111
+ap 2
+baja_prioridad 333
+bp 111
+bp 11
+ape 1111 80 10 10
+ape 111 80 5 5
+iae
+enviar_procesos_cluster 1
+ipc
+iae
+epc 100
+ipc
+iae
+configurar_cluster
+sndr01
+1000
+*
+*
+iec
+cc
+abc
+200
+*
+zsda
+550
+*
+*
+
+iec
+
+iae
+
+cmp proc
+
+compactar_memoria_procesador abc
+
+ipro abc
+app abc 40 50 8
+app abc 30 50 5
+app abc 10 50 10
+app abc 20 50 5
+app zsda 30 50 15
+at 5
+compactar_memoria_cluster
+ipc
+at 4
+cmc 
+ipc
+iec
+
+pc zsda
+iec
+ipc
+
+podar_cluster ryzen
+iec
+ipc
+
+pc abc
+iec
+ipc
+
+app abc 90 100 5
+ipro abc
+bpp abc 10
+ipro abc
+app abc 95 50 5
+ipro abc
+cmp abc
+ipro abc
+fin

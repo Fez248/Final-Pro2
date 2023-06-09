@@ -147,7 +147,7 @@ int main() {
             cout << "#" << comand << endl;
             clust.cmc();
         }
-        else if (comand == "podar_cluster" or comand == "pd") {
+        else if (comand == "podar_cluster" or comand == "pc") {
             string x;
             cin >> x;
             cout << "#" << comand << " " << x << endl;

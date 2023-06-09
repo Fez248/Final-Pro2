@@ -56,7 +56,7 @@ class Cluster {
         \post The new cluster a contains the old cluster and the new one in
         the position of p.
     */
-    void reread(BinTree<string>& a, string p);
+    void reread(BinTree<string>& a, const string& p);
 
     void cut(BinTree<string>& a, const string& p, int& num_cpu, int& num_pro);
 
